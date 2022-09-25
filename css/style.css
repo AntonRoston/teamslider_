@@ -4,3 +4,60 @@
     margin-right: auto;
     padding: 0 15px;
 }
+/* zahar-styles */
+/* стрілочки */
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: rgb(255,215,0);
+    border: none;
+    outline: none;
+    background-color: rgb(0,81,200) ;
+}
+/* маркери */
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(255,215,0);
+  
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: rgb(0,81,200);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(255,215,0);
+}
+.grey {
+background-color: rgb(206, 201, 201);
+}
