@@ -30,8 +30,6 @@ background-color: rgba(255, 0, 0, 0.5);
     -moz-osx-font-smoothing: grayscale;
 }
 
-.my-dots {
-
 .your-class> div {
     width: 200px;
     height: 150px;
@@ -49,9 +47,6 @@ background-color: rgba(255, 0, 0, 0.5);
     text-align: center;
 }
 
-.my-dots li {
-  }
-  
   .my-dots li {
     position: relative;
     display: inline-block;
@@ -138,9 +133,7 @@ background-color: rgba(255, 0, 0, 0.5);
     opacity: .75;
     color: black;
 }
-     
-  }
-  
+
   .my-dots li.slick-active button:before {
     opacity: .75;
     color: black;
