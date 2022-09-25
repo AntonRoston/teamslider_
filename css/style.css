@@ -1,6 +1,38 @@
-.conteiner{
+.conteiner {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+}
+
+.slide-size {
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+img {
+    display: block;
+}
+.slide-size img {
+    margin: auto;
+    padding: auto 0;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.9;
+    color: red;
+}
+
+.slick-prev {
+    left: -100px;
+}
+.slick-next {
+    right: -100px;
 }
