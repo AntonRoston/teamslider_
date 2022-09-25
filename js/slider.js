@@ -3,4 +3,14 @@ $(".autoplay").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  dots: true,
+  dotsClass: "my-dots"
 });
+
+// $(document).ready(function() {
+//     $('.your-class').slick({
+//       dots: true,
+//       dotsClass: "my-dots",
+//     });
+//   });
+  
