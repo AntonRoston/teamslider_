@@ -4,14 +4,14 @@
     margin-right: auto;
     padding: 0 15px;
 }
-/* 
+
 .your-class> div {
     width: 200px;
     height: 150px;
     background-color: #ccc;
     border: 2px solid white;
-  }
-   */
+}
+   
   .my-dots {
     position: absolute;
     bottom: -45px;
@@ -86,3 +86,4 @@
     opacity: .75;
     color: rgb(0, 0, 0);
     -webkit-font-smoothing: antialiased;
+    }
