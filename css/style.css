@@ -1,6 +1,35 @@
-.conteiner{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
 }
+
+.okslider {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.image {
+padding: 0 15px;
+}
+
+.photo {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: green;
+}
+
+.slick-prev:before,
+.slick-next:before {
+        font-family: 'slick';
+        font-size: 30px;
+        line-height: 1;
+        opacity: .75;
+        color: rgb(6, 56, 7);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
