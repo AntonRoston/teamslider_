@@ -1,5 +1,8 @@
-$('.multiple-items').slick({
+$('.variable-width').slick({
+    dots: true,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true
   });
