@@ -3,4 +3,61 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+    background-image:url(../img/taya/ornament.jpg) ;
+}
+img {
+    width: 800px;
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    border-top: 10px double rgb(16, 16, 236);
+    border-right: 10px double blue;
+    border-bottom: 10px double yellow;
+    border-left: 10px double yellow;
+
+}
+
+.my-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.my-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 2px solid yellowgreen;
+    opacity: 0.5;
+    border-radius: 50%;
+    outline: none;
+    background: transparent;
+    background-size: contain;
+    background-image: url(../img/taya/gerb.jpg);
+    margin-top: 15px;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+    opacity: 1;
 }
